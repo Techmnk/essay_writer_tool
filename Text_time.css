@@ -1,0 +1,76 @@
+.text_time{
+    display: flex;
+}
+.text_area{
+    flex: 0.99;
+    margin-left:5px
+}
+
+  
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  .main-section {
+    background: transparent;
+    max-width: 400px;
+    height: 400px;
+    margin-left: 30px;
+
+  }
+  
+  .clock-holder {
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+  }
+  
+  
+
+  .stopwatch span{
+    background:black;
+    color: aliceblue;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+  .stopwatch .stopwatch-btn {
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background 1s;
+    cursor: pointer;
+  }
+  
+  .react-stopwatch-timer__element {
+    width: 3px !important;
+    height: 3px !important;
+    border-radius: 5px;
+}
+ 
+.react-stopwatch-timer__table{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+.count_button{
+  margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: aliceblue;
+}
+
+.progress-lg {
+  height: 1.5rem!important;
+  margin: 15px 0px 15px 0px;
+  border-radius: 0.5rem;
+}

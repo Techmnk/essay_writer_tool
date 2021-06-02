@@ -1,0 +1,12 @@
+.heading{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.margin>h4{
+    padding: 0px !important;
+}
